@@ -3,11 +3,11 @@ class Nanopic < Formula
   homepage "https://github.com/wangyuehuan-git/NanoPic"
   version "1.0.0"
   url "https://github.com/wangyuehuan-git/NanoPic/releases/download/v1.0.0/nanopic-1.0.0-universal.tar.gz"
-  sha256 "8e7b5e656b1814a7636bc356726063602448d3ffa2541733dd3e723063d0402b"
+  sha256 "002d5fa2eb53ec5a4782694163fcda0414df61a473926f87c634b078cc9e3867"
 
   bottle do
     root_url "https://github.com/wangyuehuan-git/NanoPic/releases/download/v1.0.0"
-    sha256 cellar: :any_skip_relocation, all: "f7d13e9b7703e1dd65146e97d4ff6942efd59c338ca889fa2e748732b95b5ed9"
+    sha256 cellar: :any_skip_relocation, all: "7bcc62269a98b02837b59d68ac286c5736d48cce061bb17f784ba48619eff58a"
   end
 
   def install
